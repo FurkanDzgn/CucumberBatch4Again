@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="30.426">
+    <testcase classname="Validate search in Etsy" name="Validation of Search in Etsy1" time="10.803">
+        <system-out>
+            <![CDATA[Given the user goes to the Etsy.............................................passed
+When the user search it Etsy with "winter hat"..............................passed
+Then the user validate the title "Winter hat | Etsy" and url "winter".......passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validate search in Etsy" name="Validation of Search in Etsy2" time="2.331">
+        <system-out>
+            <![CDATA[Given the user goes to the Etsy.............................................passed
+When the user search it Etsy with "hat".....................................passed
+Then the user validate the title "Hat | Etsy" and url "hat".................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validate search in Etsy" name="Validation of Search in Etsy3" time="2.737">
+        <system-out>
+            <![CDATA[Given the user goes to the Etsy.............................................passed
+When the user search it Etsy with "winter soldier"..........................passed
+Then the user validate the title "Winter soldier | Etsy" and url "soldier"..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validate search in Etsy" name="Validation of Search in Etsy1" time="2.829">
+        <system-out>
+            <![CDATA[Given the user goes to the Etsy.............................................passed
+When the user search it Etsy with "winter hat"..............................passed
+Then the user validate the title "Winter hat | Etsy" and url "winter".......passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validate search in Etsy" name="Validation of Search in Etsy1 2" time="2.979">
+        <system-out>
+            <![CDATA[Given the user goes to the Etsy.............................................passed
+When the user search it Etsy with "hat".....................................passed
+Then the user validate the title "Hat | Etsy" and url "hat".................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validate search in Etsy" name="Validation of Search in Etsy1 3" time="3.338">
+        <system-out>
+            <![CDATA[Given the user goes to the Etsy.............................................passed
+When the user search it Etsy with "winter soldier"..........................passed
+Then the user validate the title "Winter soldier | Etsy" and url "soldie"...passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="DuckDuckGo search testing" name="Validation of Search in DuckDuckGo" time="2.252">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given the user goes to the duckduckgo.......................................passed
+When the user send the "selenium" keyword...................................passed
+Then the user click search button...........................................passed
+And the user validate title contains the "selenium" keyword.................passed
+And the user validate url contains the "selenium" keyword...................passed
+* the user validate all results contain the "Selenium" keyword..............failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_all_results_contain_the_keyword(SearchBox.java:47)
+	at ✽.the user validate all results contain the "Selenium" keyword(file:///C:/Users/12242/IdeaProjects/CucumberBatch4Again/src/test/resources/com.duckduckgo/SearchBoxText.feature:9)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="DuckDuckGo search testing" name="Validation of Search in DuckDuckGo 2" time="1.494">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given the user goes to the duckduckgo.......................................passed
+When the user send the "TestNG" keyword.....................................passed
+Then the user click search button...........................................passed
+And the user validate title contains the "TestNG" keyword...................passed
+And the user validate url contains the "Test" keyword.......................passed
+* the user validate all results contain the "Test" keyword..................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_all_results_contain_the_keyword(SearchBox.java:47)
+	at ✽.the user validate all results contain the "Test" keyword(file:///C:/Users/12242/IdeaProjects/CucumberBatch4Again/src/test/resources/com.duckduckgo/SearchBoxText.feature:9)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="DuckDuckGo search testing" name="Validation of Search in DuckDuckGo 3" time="1.379">
+        <system-out>
+            <![CDATA[Given the user goes to the duckduckgo.......................................passed
+When the user send the "Java" keyword.......................................passed
+Then the user click search button...........................................passed
+And the user validate title contains the "Java" keyword.....................passed
+And the user validate url contains the "Java" keyword.......................passed
+* the user validate all results contain the "Java" keyword..................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

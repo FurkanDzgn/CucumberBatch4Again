@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Runner.EtsyRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 30.867 s <<< FAILURE! - in Runner.EtsyRunner
+Validation of Search in DuckDuckGo(DuckDuckGo search testing)  Time elapsed: 2.246 s  <<< FAILURE!
+java.lang.AssertionError
+
+Validation of Search in DuckDuckGo(DuckDuckGo search testing)  Time elapsed: 1.497 s  <<< FAILURE!
+java.lang.AssertionError
+

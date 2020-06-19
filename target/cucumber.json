@@ -1,0 +1,988 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "It will run before each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8605880200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user goes to the Etsy",
+            "match": {
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_goes_to_the_Etsy()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-19T22:25:17.626Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validation of Search in Etsy1",
+        "description": "",
+        "id": "validate-search-in-etsy;validation-of-search-in-etsy1",
+        "after": [
+          {
+            "result": {
+              "duration": 2029000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1487021400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user search it Etsy with \"winter hat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"winter hat\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_search_it_Etsy_with(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 670205700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user validate the title \"Winter hat | Etsy\" and url \"winter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Winter hat | Etsy\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"winter\"",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_validate_the_title_and_url(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "It will run before each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 954445500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user goes to the Etsy",
+            "match": {
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_goes_to_the_Etsy()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-19T22:25:28.436Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validation of Search in Etsy2",
+        "description": "",
+        "id": "validate-search-in-etsy;validation-of-search-in-etsy2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 989097400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user search it Etsy with \"hat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hat\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_search_it_Etsy_with(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 383023100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user validate the title \"Hat | Etsy\" and url \"hat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hat | Etsy\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"hat\"",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_validate_the_title_and_url(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "It will run before each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1423394900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user goes to the Etsy",
+            "match": {
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_goes_to_the_Etsy()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-19T22:25:30.781Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validation of Search in Etsy3",
+        "description": "",
+        "id": "validate-search-in-etsy;validation-of-search-in-etsy3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1067586500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user search it Etsy with \"winter soldier\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"winter soldier\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_search_it_Etsy_with(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 244792600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user validate the title \"Winter soldier | Etsy\" and url \"soldier\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Winter soldier | Etsy\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"soldier\"",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_validate_the_title_and_url(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validate search in Etsy",
+    "description": "",
+    "id": "validate-search-in-etsy",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.Etsy/EtsySearch.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "It will run before each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1517233000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user goes to the Etsy",
+            "match": {
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_goes_to_the_Etsy()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-19T22:25:33.525Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validation of Search in Etsy1",
+        "description": "",
+        "id": "validate-search-in-etsy;validation-of-search-in-etsy1;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 959992700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user search it Etsy with \"winter hat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"winter hat\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_search_it_Etsy_with(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 331105600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user validate the title \"Winter hat | Etsy\" and url \"winter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Winter hat | Etsy\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"winter\"",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_validate_the_title_and_url(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "It will run before each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1090850000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user goes to the Etsy",
+            "match": {
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_goes_to_the_Etsy()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-19T22:25:36.363Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validation of Search in Etsy1",
+        "description": "",
+        "id": "validate-search-in-etsy;validation-of-search-in-etsy1;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1379426900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user search it Etsy with \"hat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hat\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_search_it_Etsy_with(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 504651700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user validate the title \"Hat | Etsy\" and url \"hat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hat | Etsy\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"hat\"",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_validate_the_title_and_url(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "It will run before each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1273647200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user goes to the Etsy",
+            "match": {
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_goes_to_the_Etsy()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-19T22:25:39.346Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validation of Search in Etsy1",
+        "description": "",
+        "id": "validate-search-in-etsy;validation-of-search-in-etsy1;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1659679500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user search it Etsy with \"winter soldier\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"winter soldier\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_search_it_Etsy_with(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 400222200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user validate the title \"Winter soldier | Etsy\" and url \"soldie\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Winter soldier | Etsy\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"soldie\"",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefinitions.com.etsy.EtsySteps.the_user_validate_the_title_and_url(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate search in Etsy",
+    "description": "",
+    "id": "validate-search-in-etsy",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.Etsy/ScenarioOutlineEtsy.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-19T22:25:42.688Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validation of Search in DuckDuckGo",
+        "description": "",
+        "id": "duckduckgo-search-testing;validation-of-search-in-duckduckgo;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 421933000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 704281500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user goes to the duckduckgo",
+            "match": {
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_goes_to_the_duckduckgo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96741600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user send the \"selenium\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_send_the_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 961801400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click search button",
+            "match": {
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3989800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user validate title contains the \"selenium\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_title_contains_the_keyword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3988200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user validate url contains the \"selenium\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_url_contains_the_keyword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_all_results_contain_the_keyword(SearchBox.java:47)\r\n\tat ✽.the user validate all results contain the \"Selenium\" keyword(file:///C:/Users/12242/IdeaProjects/CucumberBatch4Again/src/test/resources/com.duckduckgo/SearchBoxText.feature:9)\r\n",
+              "duration": 44878300,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the user validate all results contain the \"Selenium\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_all_results_contain_the_keyword(java.lang.String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-19T22:25:44.945Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validation of Search in DuckDuckGo",
+        "description": "",
+        "id": "duckduckgo-search-testing;validation-of-search-in-duckduckgo;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 365056100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 185573400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user goes to the duckduckgo",
+            "match": {
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_goes_to_the_duckduckgo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57841600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user send the \"TestNG\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestNG\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_send_the_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 784313200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click search button",
+            "match": {
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4986000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user validate title contains the \"TestNG\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestNG\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_title_contains_the_keyword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2991400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user validate url contains the \"Test\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_url_contains_the_keyword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_all_results_contain_the_keyword(SearchBox.java:47)\r\n\tat ✽.the user validate all results contain the \"Test\" keyword(file:///C:/Users/12242/IdeaProjects/CucumberBatch4Again/src/test/resources/com.duckduckgo/SearchBoxText.feature:9)\r\n",
+              "duration": 88759900,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "the user validate all results contain the \"Test\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_all_results_contain_the_keyword(java.lang.String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-19T22:25:46.442Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validation of Search in DuckDuckGo",
+        "description": "",
+        "id": "duckduckgo-search-testing;validation-of-search-in-duckduckgo;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 223468700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user goes to the duckduckgo",
+            "match": {
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_goes_to_the_duckduckgo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50859700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user send the \"Java\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_send_the_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 949793600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click search button",
+            "match": {
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4985900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user validate title contains the \"Java\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_title_contains_the_keyword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5983600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user validate url contains the \"Java\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_url_contains_the_keyword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141620300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user validate all results contain the \"Java\" keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.com.DuckDuckGo.SearchBox.the_user_validate_all_results_contain_the_keyword(java.lang.String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "DuckDuckGo search testing",
+    "description": "",
+    "id": "duckduckgo-search-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.duckduckgo/SearchBoxText.feature",
+    "tags": []
+  }
+]
